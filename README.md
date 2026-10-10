@@ -64,18 +64,33 @@ So the result will be:
 ## WEEK04
 **- AI Tool Used: ChatGPT**
 
+
 **- Prompt Used:**
 What is a library in Python?
+
 How can I import a library?
+
 What do random and time do?
+
 How does random.shuffle() work?
+
 How can I make my program wait for one second?
+
+
 **- What did you change?**
+
  changed one question in the quiz to a Python question. 
+
 **Explain Code**
 This code is a simple quiz game with 5 questions.
+
 First, I imported two libraries, random and time. The random.shuffle() function changes the order of the questions, and time.sleep(1) makes the program wait for one second.
+
 I used a list to store the questions and answers. The for loop asks each question, and input() gets the user's answer.
+
 I used if and else to check if the answer is correct. If the answer is correct, the score increases by 1.
+
 I also used .strip().lower() to remove extra spaces and make the answers lowercase.
+
 At the end, the program shows the total score and uses if, elif, and else to display a message based on the result.
+
